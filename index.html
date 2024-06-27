@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewJeans - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+<style>
+    h2, a{color: hotpink;}
+    body{background-color:mintcream;}
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="aset/logo.png" alt="NewJeans Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <video autoplay muted loop playsinline class="video-background">
+                <source src="aset/OMG.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <!-- Inline CSS -->
+            <h1 style="color: hotpink;">Welcome to NewJeans Fan Page</h1>
+            <a href="about.html" class="btn btn-pink">About NewJeans</a>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <section class="intro text-center">
+            <img src="aset/awal.jpeg" alt="NewJeans" class="img-fluid rounded mx-auto d-block mb-4" style="max-width: 50%;">
+            <h2>NewJeans</h2>
+            <p>NewJeans is a South Korean girl group formed by ADOR. They are known for their vibrant music and captivating performances...</p>
+        </section>
+        <section class="latest-releases my-5">
+            <h2 class="text-center">Latest Releases</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="aset/GODS.jpg" class="card-img-top" alt="Release 1">
+                        <div class="card-body">
+                            <p class="card-text">GODS ft. NewJeans (뉴진스)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="aset/How Sweet.jpg" class="card-img-top" alt="Release 2">
+                        <div class="card-body">
+                            <p class="card-text">How Sweet NewJeans (뉴진스)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="aset/Supernatural.jpg" class="card-img-top" alt="Release 3">
+                        <div class="card-body">
+                            <p class="card-text">Supernatural NewJeans (뉴진스)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-cta text-center my-5">
+            <p>HUBUNGI KAMI DENGAN MENEKAN TOMBOL DIBAWAH.</p>
+            <a href="contact.html" class="btn btn-pink">Contact Us</a>
+        </section>
+    </main>
+    <footer class="bg-pink text-light text-center py-4">
+        <div class="container">
+            <div class="logo mb-2">
+                <img src="aset/logo.png" alt="NewJeans Logo" style="height: 40px; vertical-align: middle;">
+                NewJeans
+            </div>
+            <ul class="list-inline mb-2">
+                <li class="list-inline-item"><a class="text-light" href="index.html">Home</a></li>
+                <li class="list-inline-item"><a class="text-light" href="about.html">About</a></li>
+                <li class="list-inline-item"><a class="text-light" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="contact mb-2">
+                <a href="mailto:info@newjeans.com" class="text-light">info@newjeans.com</a> |
+                <a href="https://wa.me/+6285799201044" class="text-light">WhatsApp</a>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" class="text-light mr-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="text-light mr-2" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="text-light" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
